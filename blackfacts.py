@@ -1,8 +1,8 @@
 import requests
 import json
 
-project_id = "65a1efe377a05bcdc339cb14"
-authorization_token = "VF.DM.65f1dc9e31cdf17d1e7493a3.5myyvjDQ7zYbFdA1"
+project_id = "VOICEFLOW_PROJECTID"
+authorization_token = "VOCIEFLOW_API"
 
 # API endpoint for fetching the transcripts
 url = f"https://api.voiceflow.com/v2/transcripts/{project_id}?range=Last%207%20Days"
